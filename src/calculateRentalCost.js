@@ -14,6 +14,6 @@ function calculateRentalCost(days) {
   }
 
   return days * pricePerDay;
-}
+} // change magic number
 
 module.exports = calculateRentalCost;
